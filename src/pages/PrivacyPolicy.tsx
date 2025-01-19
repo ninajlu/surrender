@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom';
-import { HelpBuoyOutline } from 'react-ionicons'
 
 export default function PrivacyPolicy() {
   return (

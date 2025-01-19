@@ -26,7 +26,7 @@ export default function Home() {
                 height="160px"
                 width="160px"
                 color="#16a34a"
-                className="animate-bounce"
+                style={{ animation: 'bounce 1s infinite' }}
               />
             </div>
           </div>
