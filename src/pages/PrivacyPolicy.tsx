@@ -119,8 +119,8 @@ export default function PrivacyPolicy() {
           <h2 className="text-2xl font-extrabold text-gray-900 mt-8 mb-4">Contact Us</h2>
           <p>
             If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us at{' '}
-            <a href="mailto:contact@surrender.app" className="text-green-600 hover:text-green-700">
-              contact@surrender.app
+            <a href="mailto:findnessi@gmail.com" className="text-green-600 hover:text-green-700">
+              findnessi@gmail.com
             </a>
           </p>
         </div>
