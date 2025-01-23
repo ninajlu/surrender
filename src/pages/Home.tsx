@@ -82,8 +82,33 @@ export default function Home() {
         {/* Demo Section with floating effect */}
         <div className="mb-20 md:mb-32 text-center">
           <h3 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8 md:mb-12">
-            See How It <span className="text-green-600">Works</span>
+            See How It <span className="text-green-600">works</span>
           </h3>
+          <div className="mb-20 max-w-2xl mx-auto">
+            <div className="space-y-12">
+              <div className="flex items-center gap-8">
+                <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center text-green-600 text-2xl font-bold shrink-0">1</div>
+                <div>
+                  <h4 className="text-xl md:text-2xl font-bold text-gray-900 mb-2 text-left">Describe the Rroblem</h4>
+                  <p className="text-gray-600 text-base md:text-lg text-left">Make a video about in the decision you're struggling with.</p>
+                </div>
+              </div>
+              <div className="flex items-center gap-8">
+                <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center text-green-600 text-2xl font-bold shrink-0">2</div>
+                <div>
+                  <h4 className="text-xl md:text-2xl font-bold text-gray-900 mb-2 text-left">Create a Poll</h4>
+                  <p className="text-gray-600 text-base md:text-lg text-left">Create a poll with AI and ask friends for help!</p>
+                </div>
+              </div>
+              <div className="flex items-center gap-8">
+                <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center text-green-600 text-2xl font-bold shrink-0">3</div>
+                <div>
+                  <h4 className="text-xl md:text-2xl font-bold text-gray-900 mb-2 text-left">Or Surrender to the Dice</h4>
+                  <p className="text-gray-600 text-base md:text-lg text-left">Surrender to the universe and cede ultimate control.</p>
+                </div>
+              </div>
+            </div>
+          </div>
           <div className="relative mx-auto max-w-[280px] md:max-w-[300px] aspect-[1170/2532] animate-float">
             {/* iPhone frame with modern shadow */}
             <div className="absolute inset-0 bg-black rounded-[50px] md:rounded-[60px] shadow-[0_0_40px_rgba(0,0,0,0.2)] transition-transform duration-300">
