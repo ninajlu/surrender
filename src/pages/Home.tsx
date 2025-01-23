@@ -89,7 +89,7 @@ export default function Home() {
               <div className="flex items-center gap-8">
                 <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center text-green-600 text-2xl font-bold shrink-0">1</div>
                 <div>
-                  <h4 className="text-xl md:text-2xl font-bold text-gray-900 mb-2 text-left">Describe the Rroblem</h4>
+                  <h4 className="text-xl md:text-2xl font-bold text-gray-900 mb-2 text-left">Describe the Problem</h4>
                   <p className="text-gray-600 text-base md:text-lg text-left">Make a video about in the decision you're struggling with.</p>
                 </div>
               </div>
