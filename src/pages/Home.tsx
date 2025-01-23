@@ -37,7 +37,7 @@ export default function Home() {
           <div className="flex justify-center items-center mb-12 md:mb-20">
             <div className="transform hover:scale-105 transition-transform duration-300">
               <img 
-                src={import.meta.env.BASE_URL + "playstore.png"}
+                src="/playstore.png"
                 alt="Surrender Icon" 
                 className="w-32 h-32 md:w-40 md:h-40 animate-bounce drop-shadow-xl"
               />
@@ -99,7 +99,7 @@ export default function Home() {
                   muted 
                   playsInline
                 >
-                  <source src={import.meta.env.BASE_URL + "surrender.mp4"} type="video/mp4" />
+                  <source src="/surrender.mp4" type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
               </div>
